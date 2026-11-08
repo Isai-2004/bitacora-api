@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BD6B01B5-A8A5-4F4A-AA65-5B375DA71025}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bitacora.Api", "src\Bitacora.Api\Bitacora.Api.csproj", "{3C3B018E-27E5-4428-A8C5-BF0816E2BD9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bitacora.Application", "src\Bitacora.Application\Bitacora.Application.csproj", "{4102D822-42F0-426D-9C04-0E6244423DDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bitacora.Domain", "src\Bitacora.Domain\Bitacora.Domain.csproj", "{0792F05D-1901-4FFD-B478-9B50473120DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bitacora.Infrastructure", "src\Bitacora.Infrastructure\Bitacora.Infrastructure.csproj", "{32F08DF7-E673-4390-8CE8-2CF8412901A2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C3B018E-27E5-4428-A8C5-BF0816E2BD9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C3B018E-27E5-4428-A8C5-BF0816E2BD9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C3B018E-27E5-4428-A8C5-BF0816E2BD9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C3B018E-27E5-4428-A8C5-BF0816E2BD9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4102D822-42F0-426D-9C04-0E6244423DDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4102D822-42F0-426D-9C04-0E6244423DDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4102D822-42F0-426D-9C04-0E6244423DDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4102D822-42F0-426D-9C04-0E6244423DDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0792F05D-1901-4FFD-B478-9B50473120DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0792F05D-1901-4FFD-B478-9B50473120DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0792F05D-1901-4FFD-B478-9B50473120DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0792F05D-1901-4FFD-B478-9B50473120DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32F08DF7-E673-4390-8CE8-2CF8412901A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32F08DF7-E673-4390-8CE8-2CF8412901A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32F08DF7-E673-4390-8CE8-2CF8412901A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32F08DF7-E673-4390-8CE8-2CF8412901A2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3C3B018E-27E5-4428-A8C5-BF0816E2BD9B} = {BD6B01B5-A8A5-4F4A-AA65-5B375DA71025}
+		{4102D822-42F0-426D-9C04-0E6244423DDA} = {BD6B01B5-A8A5-4F4A-AA65-5B375DA71025}
+		{0792F05D-1901-4FFD-B478-9B50473120DD} = {BD6B01B5-A8A5-4F4A-AA65-5B375DA71025}
+		{32F08DF7-E673-4390-8CE8-2CF8412901A2} = {BD6B01B5-A8A5-4F4A-AA65-5B375DA71025}
+	EndGlobalSection
+EndGlobal
